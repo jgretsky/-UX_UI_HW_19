@@ -1,0 +1,144 @@
+header{
+    display: flex;
+    justify-content: space-between; /* put even amount of space between the items */
+    height: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.logo{
+    text-align: center; 
+    width: 13%;
+    padding: 1%;  
+}
+
+nav{
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #FCFCFC;
+}
+
+nav p{
+    padding-left: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 24px;
+    font-family: 'Sofia Sans';
+
+}
+
+
+ul{
+    width: 50%;
+    margin-right: 20px;
+    justify-content: end; /* move all content allt he way to right in that flex box*/
+}
+
+.heroImg{
+    height: auto;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+}
+
+.hero_pic{
+    position: absolute;
+    top: 75px;
+    left: 715px;
+    margin: 10px;
+    filter: drop-shadow(9px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px
+}
+
+.pic {
+    position: absolute;
+    margin: 10px;
+    width: 386px;
+    height:398px;
+    top: 60px;
+    left: 735px;
+    background-color: #EAE1B2;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.intro{
+    display: inline-block;
+    width: 619px;
+    text-align: center;
+    top: 60px;
+    left: 90px;
+
+    font-family: 'Sofia Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 58px;
+}
+
+button{
+    font-family: 'Sofia Sans';
+    background-color: #CDE3E4;
+}
+
+.download{
+    margin: 0 auto;
+    position: absolute;
+    top: 445px;
+    left: 290px;
+}
+
+
+.work{
+    height: fit-content;
+    padding: 5px;
+    position: relative;
+}
+
+.greenT {
+    width: 386px;
+    position: relative;
+    left: 735px;
+}
+
+.greenText{
+    width: 386px;
+    font-family: 'Sofia Sans';
+    text-align: center;
+    position: relative;
+    top: 70px;
+    left: 290px;
+    background-color: #C7D1C6;
+    line-height: 40px;
+}
+
+.footloc{
+    position: relative;
+    min-height: 100vh;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    bottom: 0%;
+    background-color: #CDE3E4;
+    padding:5%;
+    width: 100%;
+    height: fit-content;
+}
+
+footer ul li{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: 'Sofia Sans';
+    white-space: nowrap; /*I didnt want there to be any line breaks in the text lines*/
+}
